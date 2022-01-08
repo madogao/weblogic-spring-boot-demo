@@ -51,5 +51,11 @@ appDeployments:
 ```
 4. 构建最终镜像：
 ```
-imagetool create --fromImage dwgao/weblogic:12.2.1.4 --tag wls:12.2.1.4  --version 12.2.1.4 --wdtVersion 1.8.1 --wdtArchive domain.zip --wdtDomainHome /u01/oracle/user_projects/domains/domain1
+imagetool create \
+--fromImage dwgao/weblogic:12.2.1.4 \
+--tag wls:12.2.1.4  \
+--version 12.2.1.4 \
+--wdtVersion 1.8.1 \
+--wdtArchive domain.zip \
+--wdtDomainHome /u01/oracle/user_projects/domains/domain1
 ```
