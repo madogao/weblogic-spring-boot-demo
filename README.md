@@ -1,8 +1,8 @@
-##### 编译
+### 编译
 ```
 mvn clean package
 ```
-##### 构建镜像
+### 构建镜像
 1. 下载官方最新版本 imagetool 工具：
 https://github.com/oracle/weblogic-image-tool/releases
 2. 下载最新版本 weblogic-deploy-tooling：
